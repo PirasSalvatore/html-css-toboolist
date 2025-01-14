@@ -31,8 +31,8 @@ body {
 
 #header-menu {
     background-color: var(--tolboolist-light);
-    margin-top: 2rem;
     width: 80%;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2rem;
@@ -46,14 +46,14 @@ body {
     border: 3px solid;
 }
 
-#ntask {
+#ntask-button {
     background-color: var(--tolboolist-fbotton);
     color: var(--tolboolist-light);
     border-color: var(--tolboolist-fbotton);
 
 }
 
-#nsection {
+#nsection-button {
     border-color: var(--tolboolist-mediumlight);
     color: var(--tolboolist-mediumlight);
 }
