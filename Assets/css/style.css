@@ -87,7 +87,7 @@ body {
     color: var(--tolboolist-positive);
     border-radius: 100%;
     padding: 2px;
-    font-size: 6px;
+    font-size: 10px;
 }
 
 .negative {
@@ -95,7 +95,7 @@ body {
     color: var(--tolboolist-negative);
     border-radius: 100%;
     padding: 2px;
-    font-size: 6px;
+    font-size: 10px;
 }
 
 .editorial-typetask {
