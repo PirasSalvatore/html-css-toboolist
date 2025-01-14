@@ -79,3 +79,9 @@ body {
     margin-left: 0;
     padding-left: 0;
 }
+
+.positive {
+    list-style-image: url("../img/positive.jpg");
+    width: 5px;
+    height: 5px;
+}
