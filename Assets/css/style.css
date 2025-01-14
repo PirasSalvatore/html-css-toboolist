@@ -20,11 +20,12 @@ body {
 }
 
 #header {
+    padding-top: 1rem;
     background-color: var(--tolboolist-light);
 }
 
 #logo {
-    margin-top: 1rem;
+    vertical-align: text-top;
 }
 
 #header-title {
