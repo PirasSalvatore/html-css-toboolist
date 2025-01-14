@@ -1,0 +1,26 @@
+:root {
+    --tolboolist-light: #ffffff;
+    --tolboolist-mediumlight: #f6f8f9;
+    --tolboolist-fbotton: #47adf1;
+    --tolboolist-Goalsbottom: #9c72e4;
+    --tolboolist-Recruitbotton: #64c0a9;
+    --tolboolist-Mobilebotton: #f29f36;
+    --tolboolist-Webbotton: #d863a1;
+    --tolboolist-Salesbotton: #b0c926;
+}
+
+* {
+    margin: 0;
+}
+
+#header {
+    background-color: var(--tolboolist-light);
+}
+
+#logo {
+    margin-top: 1rem;
+}
+
+#header-title {
+    font-size: 3rem;
+}
