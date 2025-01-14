@@ -1,6 +1,6 @@
 :root {
     --tolboolist-light: #ffffff;
-    --tolboolist-mediumlight: #f6f8f9;
+    --tolboolist-mediumlight: #cccccc;
     --tolboolist-fbotton: #47adf1;
     --tolboolist-Goalsbottom: #9c72e4;
     --tolboolist-Recruitbotton: #64c0a9;
@@ -13,6 +13,10 @@
     margin: 0;
 }
 
+body {
+    background-color: var(--tolboolist-mediumlight);
+}
+
 #header {
     background-color: var(--tolboolist-light);
 }
@@ -23,4 +27,33 @@
 
 #header-title {
     font-size: 3rem;
+}
+
+#header-menu {
+    background-color: var(--tolboolist-light);
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px transparent;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    border: 3px solid;
+}
+
+#ntask {
+    background-color: var(--tolboolist-fbotton);
+    color: var(--tolboolist-light);
+    border-color: var(--tolboolist-fbotton);
+
+}
+
+#nsection {
+    border-color: var(--tolboolist-mediumlight);
+    color: var(--tolboolist-mediumlight);
 }
