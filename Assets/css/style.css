@@ -90,6 +90,14 @@ body {
     font-size: 6px;
 }
 
+.negative {
+    border: 1px solid var(--tolboolist-negative);
+    color: var(--tolboolist-negative);
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 6px;
+}
+
 .editorial-typetask {
     display: inline-block;
     border-radius: 20px;
@@ -97,4 +105,49 @@ body {
     font-size: 10px;
     color: var(--tolboolist-light);
     background-color: var(--tolboolist-fbotton);
+}
+
+.goals-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-Goalsbottom);
+}
+
+.recruiting-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-Recruitbotton);
+}
+
+.mobile-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-Mobilebotton);
+}
+
+.website-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-Webbotton);
+}
+
+.sales-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-Salesbotton);
 }
