@@ -7,6 +7,8 @@
     --tolboolist-Mobilebotton: #f29f36;
     --tolboolist-Webbotton: #d863a1;
     --tolboolist-Salesbotton: #b0c926;
+    --tolboolist-positive: green;
+    --tolboolist-negative: red;
 }
 
 * {
@@ -81,7 +83,18 @@ body {
 }
 
 .positive {
-    list-style-image: url("../img/positive.jpg");
-    width: 5px;
-    height: 5px;
+    border: 1px solid var(--tolboolist-positive);
+    color: var(--tolboolist-positive);
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 6px;
+}
+
+.editorial-typetask {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.2rem;
+    font-size: 10px;
+    color: var(--tolboolist-light);
+    background-color: var(--tolboolist-fbotton);
 }
