@@ -74,7 +74,7 @@ body {
 .macrolist {
     list-style: none;
     margin-left: 0;
-    padding-left: 2rem;
+    padding: 2rem 2rem;
 }
 
 .childlist {
